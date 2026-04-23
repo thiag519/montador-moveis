@@ -33,7 +33,9 @@ O objetivo é oferecer uma presença digital moderna para um profissional autôn
 
 ##  Preview
 
-*(adicione aqui uma imagem do site depois)*
+
+ ![image](./src/assets/iPhone-13-PRO-localhost.png)
+
 
 ---
 
@@ -82,8 +84,12 @@ O projeto pode ser facilmente publicado em plataformas como:
 
 ##  Contato
 
- WhatsApp: https://wa.me/5599999999999
- Localização: Petrópolis - RJ
+ [WhatsApp](https://wa.me/5524981116873)
+ 
+
+ [LinkedIn](https://www.linkedin.com/in/devthiagosouza/)
+
+ [Portfólio](https://createsites.com.br/)
 
 ---
 
