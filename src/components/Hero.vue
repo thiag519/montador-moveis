@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <section class="bg-white min-h-screen dark:bg-black text-white py-24">
+  <section class="bg-white min-h-screen dark:bg-black text-white py-5">
     <div class="max-w-6xl mx-auto px-10 grid md:grid-cols-2 gap-10 items-center justify-center ">
       <div>
         <h1 class="text-4xl text-gray-800 dark:text-gray-200 md:text-6xl  xl:text-7xl font-bold leading-tight mt-10">
@@ -24,7 +24,7 @@
         </div>
       </div>
       <div class=" md:block">
-        <div class="bg-gray-800 h-80 rounded-2xl flex items-center justify-center">
+        <div class="bg-gray-800 h-80 max-w-lg rounded-2xl flex items-center justify-center">
           <span class="text-gray-400">Imagem aqui</span>
         </div>
       </div>

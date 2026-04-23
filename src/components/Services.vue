@@ -30,18 +30,19 @@ const services = [
 
 <template>
   <section id="servicos" class="py-20 bg-gray-50 dark:bg-gray-900 min-h-screen">
-    <div class="max-w-6xl mx-auto px-6 text-center">
+    <div class=" max-w-6xl mx-auto px-6 text-center">
 
       <h2 class="text-3xl font-bold mb-12 text-gray-800 dark:text-gray-200">
         Serviços Profissionais
       </h2>
 
-      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="justify-center grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
         <div
           v-for="(item, index) in services"
           :key="index"
-          class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition dark:bg-gray-800"
+          class="bg-white max-w-lg p-6 rounded-2xl shadow hover:shadow-lg transition dark:bg-gray-800 flex flex-col 
+          items-center"
         >
           <h3 class="font-semibold text-xl mb-2 text-gray-800 dark:text-gray-200">
             {{ item.title }}
@@ -50,7 +51,7 @@ const services = [
           <p class="text-gray-600 text-xs dark:text-gray-200">
             {{ item.desc }}
           </p>
-          <img :src="item.url" :alt="item.title" class="h-60 w-full object-cover">
+          <img :src="item.url" :alt="item.title" class="h-60 w-full object-cover max-w-xl py-3">
         </div>
 
       </div>
